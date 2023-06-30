@@ -1,4 +1,3 @@
-//your JS code here. If required.
 window.addEventListener('DOMContentLoaded', function() {
   const submitButton = document.getElementById('submit');
   const player1Input = document.getElementById('player-1');
@@ -34,4 +33,4 @@ window.addEventListener('DOMContentLoaded', function() {
 
         const winner = checkWinner();
         if (winner) {
-          messageDiv.textContent = `${winner} congratulations,
+          messageDiv.textContent = `${winner
